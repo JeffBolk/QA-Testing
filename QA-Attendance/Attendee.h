@@ -19,7 +19,7 @@ public:
 	int getID() { return id; }
 	string getName() { return name; }
 	string getEmail() { return email; }
-	int getChecked() { return checked; }
+	bool getChecked() { return checked; }
 
 	void checkIn() { checked=true; }
 
